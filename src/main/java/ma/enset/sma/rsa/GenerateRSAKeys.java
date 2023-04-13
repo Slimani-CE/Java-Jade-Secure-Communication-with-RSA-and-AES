@@ -1,7 +1,5 @@
 package ma.enset.sma.rsa;
 
-import ma.enset.sma.CryptographyUtils;
-
 import java.io.FileWriter;
 import java.io.IOException;
 import java.security.KeyPair;

@@ -6,12 +6,9 @@ import jade.wrapper.AgentContainer;
 import jade.wrapper.AgentController;
 import jade.wrapper.StaleProxyException;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
 
 public class ServerContainer {
-    public static void main(String[] args) throws StaleProxyException, FileNotFoundException {
+    public static void main(String[] args) throws StaleProxyException {
         Runtime runtime = Runtime.instance();
         ProfileImpl profile = new ProfileImpl();
         profile.setParameter(ProfileImpl.MAIN_HOST, "localhost");

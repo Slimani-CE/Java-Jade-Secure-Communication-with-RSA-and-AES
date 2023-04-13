@@ -9,7 +9,6 @@ import java.security.KeyFactory;
 import java.security.PrivateKey;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.util.Base64;
-
 public class ServerAgent extends Agent {
     @Override
     protected void setup() {
